@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * The Student class represents a student with a name and date of birth.
  */
-public class Student {
+public class Student extends StudentCourse{
     public String name;
     public String dob;
 
@@ -40,6 +40,7 @@ public class Student {
         s.name = "Seema Morab";
         s.displayName();
         s.displayAge("07-08-2004");
-        
+        s1.displayStudentcourses();
+        s1.displayStudentMarks();
        }
 }
